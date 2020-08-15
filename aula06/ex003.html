@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa...</title>
+    <style>
+      body {
+        background-color: rgb(105, 105, 173);
+        color: white; /* Isso é um comentário */
+        font: normal 20pt Arial;
+      }
+      h1 {
+        color: rgb(255, 212, 22);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1>
+    <!-- Isso é um comentário -->
+    <p>Já me livrei da maldição</p>
+    <script>
+      var n1 = Number(window.prompt('Digite um número: ')); // string p/ number
+      var n2 = Number(window.prompt('Digite outro número: ')); // string p/ numbers
+      var s = n1 + n2;
+
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`); // usando Template Strings
+      // number + number: adição
+      // string + string: concatenação
+      // window.prompt: retorna string
+
+      /* Conversão string p/ number:
+      Number.parseInt(n) : inteiro
+      Number.parseFloat(n) : decimal
+      Number(n) : mais moderno, converte para number, seja int ou float */
+
+      /* Conversão number p/ string:
+      String(n)
+      n.toString() */
+    </script>
+  </body>
+</html>
